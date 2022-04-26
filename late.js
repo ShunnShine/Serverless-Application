@@ -1,6 +1,6 @@
 // start coding your function here
 function running_late(date){
-    if(Date(date).prototype.getHours() >= 22){
+    if(Date(date).getHours() >= 22){
         return "It is late!";
     }
     else{
