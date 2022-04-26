@@ -1,1 +1,11 @@
-// start coding your function here!
+// start coding your function here
+function running_late(date){
+    if(Date(date).prototype.getHours() >= 22){
+        return "It is late!";
+    }
+    else{
+        return "It is still early!";
+    }
+    
+}
+exports.running_late = running_late;
